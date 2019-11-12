@@ -1,5 +1,3 @@
-package icpc;
-
 import java.util.Scanner;
 
 public class solution {
