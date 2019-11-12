@@ -1,3 +1,7 @@
+/*
+https://open.kattis.com/problems/eulersnumber
+*/
+
 import java.util.Scanner;
 
 public class solution {
