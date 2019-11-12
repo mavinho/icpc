@@ -1,8 +1,10 @@
-package icpc;
+/*
+https://open.kattis.com/problems/otherside
+*/
 
 import java.util.Scanner;
 
-public class solution {
+public class Solution {
 	
 	public static void main(String[] args) {
 		
