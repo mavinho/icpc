@@ -1,9 +1,11 @@
-package icpc;
+/*
+https://open.kattis.com/problems/lipschitzconstant
+*/
 
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class solution {
+public class Solution {
     
     public static void main(String[] args) {
         
