@@ -1,15 +1,16 @@
-package icpc;
+/*
+https://open.kattis.com/problems/rationalratio
+*/
 
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class solution {
+public class Solution {
     
     public static void main(String[] args) {
         
     	Scanner scan = new Scanner(System.in); 
         String total = scan.next();
-        
         int repeat = scan.nextInt();
         int dot = total.indexOf('.');
         long gcd = 0;
@@ -49,16 +50,9 @@ public class solution {
     }
     
     public static long gcd(long a, long b) {
-    	
-    	if(a < b) {
-    		if(b % a == 0) {
-    			return a;
-    		}
-    		return gcd(a ,b % a);
-    	}
-    	if(a % b == 0) {
-    		return b;
-    	}
-    	return gcd(a % b, b);
+    	if(a == 0) {
+            return b;
+        }
+    	return gcd(b % a, a);
     }
 }
