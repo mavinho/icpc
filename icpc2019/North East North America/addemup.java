@@ -1,8 +1,10 @@
-package coding;
+/*
+https://open.kattis.com/contests/nena19open/problems/addemup
+*/
 
 import java.util.Scanner;
 
-public class addemup {
+public class Solution {
 
     public static void main(String[] args) {
 
